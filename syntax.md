@@ -8,8 +8,11 @@
 |**3**|q|r|s|t|u|v|w|x|y|z|
 ## Literals
 Numeric literals are simply strings of digits: `123`
+
 If you need to put numbers next to each other, you can separate them with spaces: `1 2 3`
+
 There is no special syntax for making lists, but you can create them with the `l` function. For example, `(l1 2 3)` returns the list `[1, 2, 3]`. 
+
 String literals are contained between `"` characters. Since the codepage of SqueezeL is rather limited, there are a few types of escape sequence to help you out:
 - Parentheses are escaped by doubling them: `((` is `(` and `))` is `)`.
 - A quote character is escaped with `)"`.
